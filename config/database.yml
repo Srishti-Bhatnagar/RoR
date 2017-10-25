@@ -8,7 +8,7 @@
 
 
 
-###########     original #######3
+###########     original 
 
 
 # default: &default
@@ -31,7 +31,7 @@
 #   <<: *default
 #   database: db/production.sqlite3
 
-###########  deploy   ##########33
+###########  deploy  
 
 default: &default
   adapter: postgresql
