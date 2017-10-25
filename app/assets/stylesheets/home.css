@@ -34,3 +34,16 @@ body{
     font-weight: bold;
     font-family: 'Helvetica Neue', sans-serif;
 }
+
+#submitbutton{
+	background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; font-weight: bold; font-family: 'Helvetica Neue', sans-serif;
+    margin-left: 43% ;
+    margin-top: 3% ; 
+}
