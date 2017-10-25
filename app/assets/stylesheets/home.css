@@ -1,0 +1,36 @@
+*{
+	padding:0 ;
+	margin: 0;
+}
+body{
+	background-image: url("tools.jpg");
+	background-repeat: no-repeat;
+	height: 100% ;
+	width: 100%; 
+	background-position: 0 0;
+    background-size: cover;
+}
+
+#imagebox p{
+	height: 200px;
+	width: 200px;
+	background-color: white;
+	font-size: 30px; 
+	text-align: center;
+	font-weight: bold;
+	margin-left: 40%;
+	margin-top: 40px; 
+}
+
+#indexfooter{
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; height: 50px;
+    background-color: white;
+    opacity: 0.7;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', sans-serif;
+}
