@@ -9,34 +9,31 @@
 	</ul>
 	</div>
 	<div id="rightside">
-		
+		<%= image_tag("kisan.jpg",  alt: "like", class: "like_image_for_index") %>
 	</div>
 </nav>
 </header>
 
 <div id="profilemain">
 	<div id="one">
-		<%= image_tag("/assets/images/cowprofile.jpg",  alt: "like", class: "like_image_for_index") %>
-
+		<%= image_tag("cowprofile.jpg",  alt: "like", class: "like_image_for_index") %>
 	</div>
 
 	<div id="two">
-		<%= image_tag("/assets/images/cowprofile.jpg",  alt: "like", class: "like_image_for_index") %>
-		
-
+		<%= image_tag("cowprofile.jpg",  alt: "like", class: "like_image_for_index") %>
 	</div>
 
 	<div id="three">
-		<%= image_tag("/assets/images/cowprofile.jpg",  alt: "like", class: "like_image_for_index") %>
-		
-
+		<%= image_tag("cowprofile.jpg",  alt: "like", class: "like_image_for_index") %>
 	</div>
 
 </div>
-
-
 <footer id="profilefooter">
 	<div id="footerdiv">
+		<%= link_to "Log Out", destroy_user_session_path, method: :delete %>
+	</div>
+	<div id="qualitybutton">
+		<%= link_to "Check Milk Quality", profile_preloader_path, method: :get %>
 	</div>
 
 </footer>
