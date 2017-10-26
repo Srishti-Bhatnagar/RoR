@@ -8,7 +8,7 @@ root to: "home#index"
 
 #get '/farmers' => 'farmers#index'
 resources :farmers
-
+resources :milks
 # namespace :Api, defaults: { format: :json } do
 #       # list of resources
 #       #get '/farmers' => 'farmers#index'
