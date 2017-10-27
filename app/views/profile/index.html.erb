@@ -1,0 +1,39 @@
+<header id="profileheader">
+<nav>
+	<div id="leftside">
+	<h2> MANJEET SINGH</h2>
+	<ul>
+		<li> ID: 0001 </li>
+		<li> Number of animals: 3 </li>
+		<li> Joined: since 2009 </li>
+	</ul>
+	</div>
+	<div id="rightside">
+		<%= image_tag("kisan.jpg",  alt: "like", class: "like_image_for_index") %>
+	</div>
+</nav>
+</header>
+
+<div id="profilemain">
+	<div id="one">
+		<%= image_tag("cowprofile.jpg",  alt: "like", class: "like_image_for_index") %>
+	</div>
+
+	<div id="two">
+		<%= image_tag("cowprofile.jpg",  alt: "like", class: "like_image_for_index") %>
+	</div>
+
+	<div id="three">
+		<%= image_tag("cowprofile.jpg",  alt: "like", class: "like_image_for_index") %>
+	</div>
+
+</div>
+<footer id="profilefooter">
+	<div id="footerdiv">
+		<%= link_to "Log Out", destroy_user_session_path, method: :delete %>
+	</div>
+	<div id="qualitybutton">
+		<%= link_to "Check Milk Quality", profile_preloader_path, method: :get %>
+	</div>
+
+</footer>
