@@ -1,0 +1,277 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body {
+    height: 100%;
+}
+#wrapperlogin{
+	
+	background-image: url("coww.png");
+	background-repeat: no-repeat;
+	height: 100% ;
+	width: 100% ;
+	background-position: 0 0;
+    background-size: cover;
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -20px;
+}
+*{
+	padding:0 ;
+	margin: 0;
+}
+body{
+	background-image: url("tools.jpg");
+	background-repeat: no-repeat;
+	height: 100% ;
+	width: 100%; 
+	background-position: 0 0;
+    background-size: cover;
+}
+
+#imagebox p{
+	height: 200px;
+	width: 200px;
+	background-color: white;
+	font-size: 30px; 
+	text-align: center;
+	font-weight: bold;
+	margin-left: 40%;
+	margin-top: 40px; 
+}
+
+#indexfooter{
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; height: 50px;
+    background-color: white;
+    opacity: 0.7;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#submitbutton{
+	background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; font-weight: bold; font-family: 'Helvetica Neue', sans-serif;
+    margin-left: 43% ;
+    margin-top: 3% ; 
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#profileheader nav{
+	display: flex;
+	justify-content: space-between;
+	background: linear-gradient(gray, white);
+	opacity: 0.8; 
+	font-family: 'courier'
+}
+
+#profileheader nav #leftside{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 20px; 
+}
+#profileheader nav #leftside ul li{
+	list-style-type: none;
+}
+#profileheader nav #rightside{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background-color: white;
+	margin-right: 20px; 
+	margin-top: 10px; 
+	margin-bottom: 5px; 
+
+}
+
+#profileheader nav #rightside img{
+	height: 80px; width: 80px;
+	border-radius: 50%;
+	margin-right: 20px;
+	
+
+}
+#profilemain{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px; 
+	height: 80%;
+	width: 100% ; 
+}
+#profilemain #one{
+	width: 250px;
+	height: 400px;
+	background-color: white;
+	border-style: solid;
+    border-width: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+#profilemain #one img{
+	margin-top: 15px; 
+	height: 100px; width: 100px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#profilemain #two{
+	width: 250px;
+	height: 400px;
+	background-color: white;
+	border-style: solid;
+    border-width: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+#profilemain #two img{
+	margin-top: 15px;
+	height: 100px; width: 100px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+#profilemain #three{
+	width: 250px;
+	height: 400px;
+	background-color: white;
+	border-style: solid;
+    border-width: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+#profilemain #three img{
+	margin-top: 15px; 
+	height: 100px; width: 100px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#profilefooter{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background-color: gray ;
+}
+#profilefooter #footerdiv{
+	position: relative;
+	margin-left: 10px;
+	text-align: center;
+}
+
+#profilefooter #qualitybutton{
+	position: relative; 
+	margin-right: 10px; 
+	text-align: center;
+	padding: 5px, 5px, 5px, 5px;
+}
+
+/*for preloader */
+#preid{
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	background-image: url("7.jpg") ;
+	background-repeat: no-repeat;
+	height: 100% ;
+	width: 100%; 
+	background-position: 0 0;
+    background-size: cover;
+}
+#loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #4682B4; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+#frontheader h1{
+	color: #111; font-family: 'Helvetica Neue', sans-serif;
+	font-size: 100px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.2), 0 1px 0 #fff;
+}
+#frontheader h3{
+	 color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 30px;
+	 font-weight: bold; line-height: 32px; margin: 0 0 32px; text-align: center; 
+	 text-shadow: 0 -1px 0 rgba(0,0,0,0.2), 0 1px 0 #fff;
+}
+
+#frontextra{
+	color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 18px;
+	 font-weight: bold; line-height: 32px; margin: 0 0 5px; 
+	 text-shadow: 0 -1px 0 rgba(0,0,0,0.2), 0 1px 0 #fff; margin-left: 40px; margin-top: 80px;
+}
+.field{
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 18px; font-weight: bold; letter-spacing: -1px; line-height: 1; margin-left: 40px; 
+	text-shadow: 0 1px #2a85a1;
+
+}
+#login{
+	color: #111; font-family: 'Helvetica Neue', sans-serif;
+	font-size: 25px; font-weight: bold; letter-spacing: -1px; line-height: 1; 
+}
+
+#outerlogin{
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.2), 0 1px 0 #fff;
+	opacity: 0.8; 
+	margin-left: 40px;
+	margin-top: 35px; 
+	background-color: white;
+	width: 30%;
+	border-radius: 2% ;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px; 
+	border-bottom-color: #111 ; 
+
+
+}
